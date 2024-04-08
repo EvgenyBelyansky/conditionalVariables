@@ -82,8 +82,5 @@ public class Main {
             case 9, 10, 11 -> System.out.println("Осень");
             default -> System.out.println("В году только 12 месяцев!!");
         }
-
-
-
     }
 }
