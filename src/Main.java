@@ -44,7 +44,7 @@ public class Main {
 
 
         System.out.println("\nЗадача № 4");
-        int deliveryDistance = 95;
+        int deliveryDistance = 12;
         int days = 1;
 
         if (deliveryDistance <= 20) {
@@ -72,6 +72,17 @@ public class Main {
         } else {
             System.out.println("Свыше 100 км доставки нет");
         }
+
+        System.out.println("\nЗадача № 5");
+        int monthNumber = 14;
+        switch (monthNumber) {
+            case 1, 2, 12 -> System.out.println("Зима");
+            case 3, 4, 5 -> System.out.println("Весна");
+            case 6, 7, 8 -> System.out.println("Лето");
+            case 9, 10, 11 -> System.out.println("Осень");
+            default -> System.out.println("В году только 12 месяцев!!");
+        }
+
 
 
     }
