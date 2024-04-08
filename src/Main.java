@@ -44,7 +44,7 @@ public class Main {
 
 
         System.out.println("\nЗадача № 4");
-        int deliveryDistance = 12;
+        int deliveryDistance = 95;
         int days = 1;
 
         if (deliveryDistance <= 20) {
