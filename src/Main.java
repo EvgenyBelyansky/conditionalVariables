@@ -15,6 +15,10 @@ public class Main {
             }
 
         System.out.println("\nЗадача 2");
+        for (int i = 0; i < 5; i += 2) {
+            System.out.println(i);
+            break;
+        }
 
         int age2 = 6;
         if (age2 == 18) {
