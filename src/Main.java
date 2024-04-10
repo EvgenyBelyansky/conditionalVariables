@@ -9,10 +9,10 @@ public class Main {
                 System.out.println("Иди куда хочешь и пей что хочешь");
             }
         } else if (age > 7) {
-                System.out.println(" Иди в школу");
-            } else {
-                System.out.println("Иди в детский сад");
-            }
+            System.out.println(" Иди в школу");
+        } else {
+            System.out.println("Иди в детский сад");
+        }
 
         System.out.println("\nЗадача 2");
         for (int i = 0; i < 5; i += 2) {
@@ -37,7 +37,7 @@ public class Main {
             System.out.println("Красный! Ехать нельзя!");
         } else if (color == 'y') {
             System.out.println("Желтый. Внимание!");
-            } else {
+        } else {
             System.out.println("Зеленый! Можно ехать.");
         }
 
